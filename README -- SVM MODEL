@@ -1,0 +1,40 @@
+-- README --
+
+Instructions to run the SVM model -
+
+- If possible run the program on colab.research.google.com
+
+- Click file and upload the .ipynb file that is in this zip file
+
+- Click on the side bar and go to the files section
+  - upload the dataset twitchdata.csv file
+
+Install the following pipes :
+
+!pip install sklearn
+!pip install pandas
+!pip install numpy
+
+Once you have all of this you can run the code freely
+
+* OUTPUT FOR THE ACCURACY, PRECISION, RECALL AND RUNTIME ARE ALL BELOW THE SORTED LIST OF STREAMERS. *
+
+*TAKE NOTE IT WILL TAKE AROUND 60-70 SECONDS OF RUNTIME*
+
+REFERENCES USED FOR THIS CODE :
+
+MODULE 5 OF CLASS SVM LECTURE
+https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html
+https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html
+https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sort_values.html
+https://scikit-learn.org/stable/modules/svm.html
+
+THE ABOVE LINKS ARE DIRECT LINKS TO THE MODULES THAT I USED TO GET ASSISTANCE FOR FIGURING OUT THE CODE
+ALL ARE LINKS TO THE MODULES FOR THE LIBRARIES THAT WE HAD USED.
+
+EXTRA OUTPUTS YOU CAN GET : 
+
+IF U CHANGE THE LINK OF CODE -> svm_model = SVC(kernel = 'linear')
+U ARE ABLE TO CHANGE THE KERNEL LINEAR INTO poly, sigmoid, and rbf
+-- LINEAR HAS THE BEST ACCURACY!
